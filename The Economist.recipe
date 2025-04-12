@@ -184,6 +184,7 @@ class Economist(BasicNewsRecipe):
     language = 'en'
     encoding = 'utf-8'
     masthead_url = 'https://www.livemint.com/lm-img/dev/economist-logo-oneline.png'
+    publication_type = 'magazine'
 
     __author__ = "Kovid Goyal"
     description = (
