@@ -19,6 +19,7 @@ class NewYorker(BasicNewsRecipe):
     title = "The New Yorker Magazine"
     description = "Articles of the week's New Yorker magazine"
     language = 'en_US'
+    publication_type = 'magazine'
     __author__ = 'Kovid Goyal'
     no_stylesheets = True
     timefmt = ' [%b %d]'
